@@ -1,4 +1,4 @@
-﻿namespace CASSaaS.Api.Models
+﻿namespace CASSaaS.Sdk
 {
     public class CassedAddressResponse
     {
