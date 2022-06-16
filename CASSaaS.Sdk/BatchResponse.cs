@@ -9,5 +9,5 @@ public class BatchResponse
     public int TotalRecassed { get; set; }
     public int TotalInvalid { get; set; }
     public int TotalError { get; set; }
-    public List<CassedAddressResponse> Addresses { get; set; } = default!;
+    public List<CassedAddressResponse>? Addresses { get; set; }
 }
