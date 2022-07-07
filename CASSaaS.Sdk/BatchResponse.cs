@@ -1,6 +1,6 @@
 ﻿namespace CASSaaS.Sdk;
 
-public class BatchResponse
+public class BatchResponse: Response
 {
     public int BatchId { get; set; }
     public int TotalRequested { get; set; }
